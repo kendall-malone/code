@@ -1,0 +1,81 @@
+html{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+ body{
+  background-image: url("http://watzek.lclark.edu/cs/293spr2021/ex1/silverware.jpg");
+  background-repeat: repeat;
+  margin-left: 15%;
+
+}
+
+
+h1{
+  font-style: "Lucida Sans Unicode";
+  font-size:22px;
+  background-color: rgb(240, 240, 240);
+  color: rgb(164, 164, 0);
+  text-align: center;
+  letter-spacing: 0.05em;
+
+}
+
+p{
+  font-style:Georgia;
+  font-size:11px;
+  color: rgb(64, 64, 64);
+}
+
+ul{
+  font-style:Georgia;
+  font-size:11px;
+  color: rgb(64, 64, 64);
+  list-style-image: url("http://watzek.lclark.edu/cs/293spr2021/ex1/pie_icon.gif");
+}
+
+
+h2{
+  font-size:18px;
+  font-style: "Lucida Sans Unicode";
+  background-color: rgb(240, 240, 240);
+  color: rgb(164, 164, 0);
+  text-align: left;
+
+}
+
+
+
+ol{
+  font-style:Georgia;
+  font-size:11px;
+  color: rgb(64, 64, 64);
+}
+
+p.comments{
+  font-style:Georgia;
+  font-size:11px;
+  color: rgb(64, 64, 64);
+  background-color: rgb(255, 255, 160);
+  font-style: italic;
+  margin-left: 30px;
+}
+
+p.links{
+  font-style:Georgia;
+  font-size:11px;
+  color: rgb(164, 164, 0);
+
+}
+
+p.cprt{
+  font-style: "Courier New";
+  font-size:11px;
+  color: black;
+
+}
+
+pre{
+  font-size: 11px;
+}
