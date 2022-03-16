@@ -1,0 +1,77 @@
+<!doctype html>
+<!-- Kendall Malone -->
+
+<html>
+<head>
+  <title>SpeedReader</title>
+
+
+  <meta charset="utf-8" />
+  <link href="speedreader.css" type="text/css" rel="stylesheet" />
+  <script src="speedreader.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+  <h1> SpeedReader </h1>
+
+  <style>
+    #output {
+        border: 2px outset #8EBEBE;
+        background-color: #FFFFFF;
+        text-align: center;
+        horizontal-align: center;
+        height: 100px;
+        }
+
+
+  </style>
+
+
+  <textarea rows="10" cols="80" id="output"> </textarea>
+
+
+
+   <fieldset class="three">
+     <legend> controls </legend>
+     <label for="pControls"> Play Controls: </label> <br>
+    <button onclick="start()" id= "start">Start</button>
+   <button onclick="stop()" id= "stop">Stop</button>
+   </fieldset>
+
+  <fieldset class="three">
+    <label for="speed"> Speed: </label> <br>
+    <select name="speed">
+      <option value="50wpm">50 wpm</option>
+      <option value="350wpm">350 wpm</option>
+      <option value="400wpm">400 wpm</option>
+      <option value="4500wpm">450 wpm</option>
+      <option value="500wpm">500 wpm</option>
+    </fieldset>
+
+  <fieldset class="three">
+    <!-- <label for="size"> Size: </label> <br> -->
+    <input type="radio" name="size" value="2" class="font"  onchange="changeTextSize()" >Medium
+    <!-- <label for="Medium"> Medium </label> -->
+    <input type="radio" name="size" value="3.5" class="font" onchange="changeTextSize()">Big
+    <!-- <label for="Big"> Big </label> -->
+    <input type="radio" name="size" value="5" class="font" onchange="changeTextSize()">Bigger
+    <!-- <label for="Bigger"> Bigger </label> -->
+  </fieldset>
+
+
+    <p>
+
+
+      <label for="text"> Input text: </label> <br>
+      <textarea rows="10" cols="80" id="input"> </textarea>
+
+
+
+
+
+</body>
+
+
+</html>
