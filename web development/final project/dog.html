@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title>Dog API Example</title>
+
+    <link rel="stylesheet" href="dog.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1><mark> DOG! </mark> </h1>
+
+        <section class="results">
+          <h2> <mark> Want to see some random dogs? </mark></h2>
+          <form action="/action_page.php">
+
+          <mark> How many dogs do you want to see? (between 1 and 50): </mark>
+          <input type="number" class= "quantity" name="quantity" min="1" max="50" value="3">
+          <input type="submit">
+          </form>
+
+          <br><br>
+
+          <div class="results-img"></div>
+        </section>
+    </div>
+
+    <script src="dog.js"></script>
+
+</body>
+</html>
