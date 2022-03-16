@@ -1,0 +1,31 @@
+body{
+	font-family: cursive;
+	font-size:14pt;
+	text-align: center;
+	margin: 100px;
+
+}
+
+#squarearea{
+	height:400px;
+	width:400px;
+	margin: auto;
+	position: relative;
+	font-size: 40pt;
+
+}
+
+.piece{
+	text-align: center;
+	position: absolute;
+	border:5px solid black;
+	width:90px;
+	height:90px;
+	background-image: url("background.jpg");
+
+}
+
+.movable{
+	border-color: red;
+	color: red;
+}
